@@ -30,12 +30,12 @@ This repository contains the codebase for an AI-powered Text Summarizer and Tran
 
 ## Getting Started
 
-1. Prerequisites
+1. **Prerequisites:**
 
 - Node.js and npm (or yarn) installed on your system.
 - A Hugging Face API key (obtain one for free at https://huggingface.co/)
 
-2. Project Setup
+2. **Project Setup:**
 
 - Clone this repository:
 
@@ -55,7 +55,7 @@ cd BrevityAI
 npm install 
 ```
 
-3. Environment Variables
+3. **Environment Variables:**
 
 - Create a .env file in the root of your project.
 - Add the following line, replacing with your actual Hugging Face API key:
@@ -64,7 +64,7 @@ npm install
 ACCESS_TOKEN=YOUR_API_KEY
 ```
 
-4. Start the Development Server
+4. **Start the Development Server:**
 
 ```bash
 npm start 
@@ -72,7 +72,7 @@ npm start
 
 - The app will run on http://localhost:3000
 
-##Usage
+## Usage
 
 - Paste your text in the input box.
 - Select the desired summary length.
@@ -81,6 +81,6 @@ npm start
 
 > 503 errors: Many of the hosted models take a second to warm up from a cold start. You may encounter a 503 error the first time you call a model Wait about 20 seconds and try again!
 
-##Contributing
+## Contributing
 
 This project welcomes contributions! Feel free to open issues, submit pull requests, or provide feedback.
