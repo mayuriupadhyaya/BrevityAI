@@ -79,7 +79,7 @@ npm start
 - Click the "Summarize" button.
 - Choose the target language for translation.
 
-> 503 errors: Many of the hosted models take a second to warm up from a cold start. You may encounter a 503 error the first time you call a model Wait about 20 seconds and try again!
+> Many of the hosted models take a second to warm up from a cold start. You may encounter a 503 error the first time you call a model Wait about 20 seconds and try again!
 
 ## Contributing
 
