@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AI Text Summarizer App</title>
+    <link rel="stylesheet" href="stylesheet.css">   
+  </head>
+  <body>
+    <h1>BrevityAI</h1>
+    <p> Welcome to BrevityAI, your AI - powered summarization and translation App! </p>
+    <p> Condense lengthy texts and translate them with the power of AI using BrevityAI. </p>
+    <p> Save time and extract the core ideas from any text such as lengthy articles or research papers – BrevityAI makes it easy. </p>
+    <p> Simply paste your text into the text area below and click the "Summarize" button. </p>
+    <div class="container">
+      <div class="text-box input-section">
+        <textarea id="text_to_summarize" name="text_to_summarize" placeholder="Paste in some text to summarize. (Min length is 200 chars. Max length is 100,000 chars.)" maxlength="100000"></textarea>
+        <button id="submit-button" class="submit-button" >
+          <span class="submit-button-text">Summarize</span>
+        </button>
+      </div>
+      <div class="text-box summary-section"> 
+        <textarea id="summary" name="summarized_text" placeholder="Summarized text will appear here..."></textarea>
+      </div>
+      <div class="text-box translation-section"> 
+        <select id="language-select">
+          <option value="" disabled selected>Select language</option>
+          <option value="zh">Chinese</option>
+          <option value="nl">Dutch</option>
+          <option value="es">Spanish</option>
+        </select>
+        <textarea id="translation" name="translated_text" placeholder="Translated text will appear here..."></textarea>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
