@@ -3,7 +3,7 @@ This repository contains the codebase for an AI-powered Text Summarizer and Tran
 
 ## Demo
 
-[Demo](https://github.com/mayuriupadhyaya/BrevityAI/blob/559a58488b1024e25858aaaf9152ad388a12e301/BrevityAI_demo.mp4)
+![Demo](https://github.com/mayuriupadhyaya/BrevityAI/blob/3898974161b4af014c964d84de34f0c9716c3b8f/public/BrevityAI_demo.gif)
 
 ## Tech Stack
 
